@@ -1,10 +1,10 @@
 /* color palette from https://www.color-hex.com/color-palettes */
 :root {
-	--background-color: #A6A5A5;
+	--background-color: #AC7C83;
 	--lightest-color: #D9E6F7;
 	--highlight-color: #ffffff;
 	--highlight-color-dark: #000000;
-	--hover-color-dark: #444040;
+	--hover-color: #444040;
 	--bright-color-maroon: #83323E;
 	--bright-color-light-pink: #AC7C83;
 	--bright-color-tan: #D3BFB0;
@@ -78,16 +78,16 @@ a {
 
 .link-list-item-dark:hover,
 a:hover {
-	color: var(--background-color);
-	border-color: var(--background-color);
-	text-shadow: 0 0 2em var(--background-color);
+	color: var(--hover-color);
+	border-color: var(--hover-color);
+	text-shadow: 0 0 2em var(--hover-color);
 }
 
 .link-list-item-light:hover,
 a:hover {
-	color: var(--hover-color-dark);
-	border-color: var(--hover-color-dark);
-	text-shadow: 0 0 2em var(--hover-color-dark);
+	color: var(--hover-color);
+	border-color: var(--hover-color);
+	text-shadow: 0 0 2em var(--hover-color);
 }
 
 .icon-list-img {
