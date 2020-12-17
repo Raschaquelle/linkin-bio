@@ -77,16 +77,16 @@ a {
 
 .link-list-item-dark:hover,
 a:hover {
-	color: var(--lightest-color);
-	border-color: var(--lightest-color);
-	text-shadow: 0 0 2em var(--lightest-color);
+	color: var(--background-color);
+	border-color: var(--background-color);
+	text-shadow: 0 0 2em var(--background-color);
 }
 
 .link-list-item-light:hover,
 a:hover {
-	color: var(--lightest-color);
-	border-color: var(--lightest-color);
-	text-shadow: 0 0 2em var(--lightest-color);
+	color: var(--background-color);
+	border-color: var(--background-color);
+	text-shadow: 0 0 2em var(--background-color);
 }
 
 .icon-list-img {
