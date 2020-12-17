@@ -8,7 +8,6 @@
 	--bright-color-light-pink: #AC7C83;
 	--bright-color-tan: #D3BFB0;
 	--bright-color-dark-blue: #3E4957;
-	--bright-color-light-blue: #D9E6F7;
 }
 
 body {
@@ -77,9 +76,9 @@ a {
 
 .link-list-item-dark:hover,
 a:hover {
-	color: var(--hover-color);
-	border-color: var(--hover-color);
-	text-shadow: 0 0 2em var(--hover-color);
+	color: var(--lightest-color);
+	border-color: var(--lightest-color);
+	text-shadow: 0 0 2em var(--lightest-color);
 }
 
 .link-list-item-light:hover,
