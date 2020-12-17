@@ -69,7 +69,7 @@ a {
 	border: 1px solid var(--lightest-color);
 	box-sizing: border-box;
 	margin: 20px auto;
-	color: var(--hover-color-dark);
+	color: var(--highlight-color-dark);
 	padding: 15px;
 	text-align: center;
 	transition: all 0.15s;
@@ -85,9 +85,9 @@ a:hover {
 
 .link-list-item-light:hover,
 a:hover {
-	color: var(--background-color);
-	border-color: var(--background-color);
-	text-shadow: 0 0 2em var(--background-color);
+	color: var(--hover-color-dark);
+	border-color: var(--hover-color-dark);
+	text-shadow: 0 0 2em var(--hover-color-dark);
 }
 
 .icon-list-img {
