@@ -3,9 +3,11 @@
 	--darkest-color: #A6A5A5;
 	--lightest-color: #D9E6F7;
 	--highlight-color: #ffffff;
-	--bright-color-1: #83323E;
-	--bright-color-2: #AC7C83;
-	--bright-color-3: #D3BFB0;
+	--bright-color-maroon: #83323E;
+	--bright-color-light-pink: #AC7C83;
+	--bright-color-tan: #D3BFB0;
+	--bright-color-dark-blue: #3E4957;
+	--bright-color-light-blue: #D9E6F7;
 }
 
 body {
@@ -74,14 +76,20 @@ a:hover {
 	margin: 3px;
 }
 
-.dark {
-	background: var(--bright-color-1);
+.maroon {
+	background: var(--bright-color-maroon);
 }
 
-.medium {
-	background: var(--bright-color-2);
+.lightpink {
+	background: var(--bright-color-light-pink);
 }
 
-.light {
-	background: var(--bright-color-3);
+.tan {
+	background: var(--bright-color-tan);
+}
+.darkblue {
+	background: var(--bright-color-dark-blue);
+}
+.lightblue {
+	background: var(--bright-color-light-blue);
 }
