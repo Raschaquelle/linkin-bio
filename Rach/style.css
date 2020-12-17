@@ -4,6 +4,7 @@
 	--lightest-color: #D9E6F7;
 	--highlight-color: #ffffff;
 	--highlight-color-dark: #000000;
+	--hover-color-dark: #444040;
 	--bright-color-maroon: #83323E;
 	--bright-color-light-pink: #AC7C83;
 	--bright-color-tan: #D3BFB0;
@@ -68,7 +69,7 @@ a {
 	border: 1px solid var(--lightest-color);
 	box-sizing: border-box;
 	margin: 20px auto;
-	color: var(--highlight-color-dark);
+	color: var(--hover-color-dark);
 	padding: 15px;
 	text-align: center;
 	transition: all 0.15s;
