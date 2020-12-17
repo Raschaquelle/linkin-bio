@@ -87,9 +87,11 @@ a:hover {
 .tan {
 	background: var(--bright-color-tan);
 }
+
 .darkblue {
 	background: var(--bright-color-dark-blue);
 }
+
 .lightblue {
 	background: var(--bright-color-light-blue);
 }
