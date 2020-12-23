@@ -1,13 +1,8 @@
 :root {
-	--background-color: #A6A5A5;
 	--lightest-color: #D9E6F7;
-	--highlight-color: #ffffff;
-	--highlight-color-dark: #000000;
-	--hover-color: #444040;
+	--highlight-color: #000000;
 	--bright-color-maroon: #83323E;
-	--bright-color-light-pink: #AC7C83;
-	--bright-color-tan: #D3BFB0;
-	--bright-color-dark-blue: #3E4957;
+	--background-color: #AC7C83;
 }
 
 body {
@@ -52,8 +47,8 @@ a {
 	font-weight: bold;
 }
 
-.link-list-item-dark {
-	border: 1px solid var(--lightest-color);
+.link-list-item {
+	border: 1px solid var(--highlight-color);
 	box-sizing: border-box;
 	margin: 20px auto;
 	color: var(--highlight-color);
@@ -63,29 +58,11 @@ a {
 	border-radius: 2px;
 }
 
-.link-list-item-light {
-	border: 1px solid var(--lightest-color);
-	box-sizing: border-box;
-	margin: 20px auto;
-	color: var(--highlight-color-dark);
-	padding: 15px;
-	text-align: center;
-	transition: all 0.15s;
-	border-radius: 2px;
-}
-
-.link-list-item-dark:hover,
+.link-list-item:hover,
 a:hover {
 	color: var(--lightest-color);
 	border-color: var(--lightest-color);
 	text-shadow: 0 0 2em var(--lightest-color);
-}
-
-.link-list-item-light:hover,
-a:hover {
-	color: var(--hover-color);
-	border-color: var(--hover-color);
-	text-shadow: 0 0 2em var(--hover-color);
 }
 
 .icon-list-img {
@@ -97,12 +74,3 @@ a:hover {
 .maroon {
 	background: var(--bright-color-maroon);
 }
-
-.lightpink {
-	background: var(--bright-color-light-pink);
-}
-
-.tan {
-	background: var(--bright-color-tan);
-}
-
