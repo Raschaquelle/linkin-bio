@@ -1,0 +1,76 @@
+:root {
+	--lightest-color: #D9E6F7;
+	--highlight-color: #ffffff;
+	--bright-color-maroon: #83323E;
+	--background-color: #AC7C83;
+}
+
+body {
+	background: var(--background-color);
+	color: var(--lightest-color);
+	font-family: 'Merienda', cursive;
+}
+
+.container {
+	width: 90%;
+	max-width: 1000px;
+	margin: 50px auto;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+}
+
+.circle-shape {
+	width: 140px;
+	height: 140px;
+	position: relative;
+	overflow: hidden;
+	border-radius: 50%;
+	border: 3px solid var(--lightest-color);
+	margin: 0 auto;
+}
+
+.profile-pic {
+	display: inline;
+	margin: 0 auto;
+	height: 100%;
+	width: auto;
+}
+
+a {
+	color: var(--lightest-color);
+	text-decoration: none;
+}
+
+.ig-link {
+	margin: 10px 0;
+	font-weight: bold;
+}
+
+.link-list-item {
+	border: 1px solid var(--highlight-color);
+	box-sizing: border-box;
+	margin: 20px auto;
+	color: var(--highlight-color);
+	padding: 15px;
+	text-align: center;
+	transition: all 0.15s;
+	border-radius: 2px;
+}
+
+.link-list-item:hover,
+a:hover {
+	color: var(--lightest-color);
+	border-color: var(--lightest-color);
+	text-shadow: 0 0 2em var(--lightest-color);
+}
+
+.icon-list-img {
+	height: 50px;
+	width: 50px;
+	margin: 3px;
+}
+
+.maroon {
+	background: var(--bright-color-maroon);
+}
